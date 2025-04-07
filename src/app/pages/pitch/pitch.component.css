@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  color: #2e2e2e;
+}
+
+.img-container img {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.text-container {
+  max-width: 500px;
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  color: #339aff;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #339aff;
+  font-weight: 500;
+}
+
+.tech-icons img {
+  height: 40px;
+  margin: 0.5rem;
+}
+
+.buttons {
+  margin: 1rem 0;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.primary {
+  background-color: #339aff;
+  color: white;
+}
+
+.secondary {
+  background-color: #cdeaff;
+  color: #339aff;
+}
+
+.socials i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.socials a:hover i {
+  color: #0077b5; /* ejemplo azul tipo LinkedIn */
+}
+
+.socials a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.emoji {
+  font-size: 1.2rem;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
